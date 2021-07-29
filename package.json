@@ -1,0 +1,52 @@
+{
+  "name": "shopTemplate",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A ecommerce template using CRA and pure CSS.",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanGidoni/shopTemplate"
+  },
+  "keywords": [
+    "ecommerce",
+    "template",
+    "react",
+    "css",
+    "training"
+  ],
+  "author": "Juan Ignacio Gidoni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JuanGidoni/shopTemplate/issues"
+  },
+  "homepage": "https://github.com/JuanGidoni/shopTemplate#readme",
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
