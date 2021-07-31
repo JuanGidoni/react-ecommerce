@@ -4,7 +4,7 @@ import NavList from "../../Molecules/NavList"
 import NavMobile from "../../Molecules/NavMobile";
 
 const Navbar = () => {
- const [size, setSize] = useState('');
+ const [size, setSize] = useState(577);
 
  const getWindowSize = () => {
   return document.body.clientWidth;

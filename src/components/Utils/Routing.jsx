@@ -1,4 +1,5 @@
 import { Route, Switch } from 'react-router-dom'
+import Cart from '../Pages/Cart'
 import Contact from '../Pages/Contact'
 import Home from '../Pages/Home'
 import Notfound from '../Pages/Notfound'
@@ -13,6 +14,7 @@ const Routing = () => {
     <Route exact path="/products" component={() => <Products />} />
     <Route exact path="/products/:id" component={() => <Products />} />
     <Route exact path="/search/:id" component={() => <Search />} />
+    <Route exact path="/cart" component={() => <Cart />} />
     <Route exact path="/contact" component={() => <Contact />} />
     <Route exact path="*" component={() => <Notfound />} />
    </Switch>
