@@ -1,4 +1,4 @@
-# <a name="shopTemplate">shopTemplate</a>
+# <a name="reactecommerce">react-ecommerce</a>
 A ecommerce template using CRA and pure CSS.
 
 ## <a name="Dependencies">Dependencies</a>
@@ -20,14 +20,14 @@ First clone this project.
 You can use:
 
 ```
-gh repo clone JuanGidoni/shopTemplate
+gh repo clone JuanGidoni/react-ecommerce
 
-git@github.com:JuanGidoni/shopTemplate.git
+git@github.com:JuanGidoni/react-ecommerce.git
 
-git clone https://github.com/JuanGidoni/shopTemplate.git
+git clone https://github.com/JuanGidoni/react-ecommerce.git
 ```
 
-Next, use `cd shopTemplate` and install dependencies with `yarn` or `npm`
+Next, use `cd react-ecommerce` and install dependencies with `yarn` or `npm`
 
 ```
 yarn install
