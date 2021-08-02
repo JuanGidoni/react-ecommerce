@@ -3,7 +3,7 @@ import CartLayout from "../../Templates/CartLayout"
 
 const Cart = () => {
  return (
-  <CartLayout>
+  <CartLayout className="container">
    <CartList />
   </CartLayout>
  )

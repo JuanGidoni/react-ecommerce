@@ -1,12 +1,12 @@
 import { CartProvider } from "../Contexts/CartContext"
 
-const CartLayout = ({ children }) => {
+const CartLayout = ({ children, className }) => {
  return (
-  <>
-  <CartProvider>
-   {children}
-  </CartProvider>
-  </>
+  <div className={className}>
+   <CartProvider>
+    {children}
+   </CartProvider>
+  </div>
  )
 }
 

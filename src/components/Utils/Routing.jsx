@@ -1,4 +1,5 @@
 import { Route, Switch } from 'react-router-dom'
+import Footer from '../Organisms/Footer'
 import Cart from '../Pages/Cart'
 import Contact from '../Pages/Contact'
 import Home from '../Pages/Home'
@@ -18,6 +19,7 @@ const Routing = () => {
     <Route exact path="/contact" component={() => <Contact />} />
     <Route exact path="*" component={() => <Notfound />} />
    </Switch>
+   <Footer />
   </div>
  )
 }

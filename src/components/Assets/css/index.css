@@ -57,6 +57,42 @@ h5 {
  margin: 0;
 }
 
+.py-1 {
+ padding: 1.5rem 0;
+}
+
+.py-2 {
+ padding: 2rem 0;
+}
+
+.py-3 {
+ padding: 3rem 0;
+}
+
+.px-1 {
+ padding: 0 1.5rem;
+}
+
+.px-2 {
+ padding: 0 2rem;
+}
+
+.px-3 {
+ padding: 0 3rem;
+}
+
+.p-1 {
+ padding: 1.5rem;
+}
+
+.p-2 {
+ padding: 2rem;
+}
+
+.p-3 {
+ padding: 3rem;
+}
+
 .category-techs {
  --notebooks: #5683ec;
  --computers: #56c6ec;
@@ -64,8 +100,24 @@ h5 {
  --periferics: #ec6c56;
 }
 
+.bg-dark {
+ background: var(--dark-color);
+ color: var(--light-color);
+}
+
+.bg-primary {
+ background: var(--primary-color);
+ color: var(--light-color);
+}
+
+.bg-secondary {
+ background: var(--secondary-color);
+ color: var(--light-color);
+}
+
 .container-fluid {
- max-width: var(--max-width);
+ width: 100%;
+ max-width: 100%;
  margin: auto;
  overflow: hidden;
 }
@@ -166,17 +218,6 @@ h5 {
 .showcase {
  padding: 2rem;
  position: relative;
- background-size: "cover";
- background-position: "center";
-}
-
-.showcase:before {
- position: absolute;
- top: 0;
- left: 0;
- width: 100%;
- height: 100%;
- opacity: 0.4;
 }
 
 .showcase-container {
@@ -316,6 +357,68 @@ h5 {
  margin-bottom: 0.5rem;
 }
 
+.btn-center {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ margin: 0 auto;
+}
+
+.btn-center:hover {
+ margin: 0 auto;
+}
+
+.footer {
+ background-color: var(--dark-color);
+ color: var(--light-color);
+}
+
+.footer img {
+ width: 150px;
+}
+
+.footer .footer-container {
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+}
+
+.footer .footer-container>* {
+ padding: .5rem;
+}
+
+.footer .footer-container>*:last-child {
+ margin-top: 0.5rem;
+ grid-column: 1 / span 4;
+ text-align: center;
+ font-size: 0.75rem;
+}
+
+.footer .footer-container input[type="email"] {
+ width: 90%;
+ padding: 0.5rem;
+ margin: 0.5rem;
+}
+
+.footer .footer-container input[type="submit"] {
+ width: 90%;
+ margin: 0.5rem;
+}
+
+.list li {
+ padding: 0.5rem 0;
+ border-bottom: #555 dotted 1px;
+ width: 90%;
+}
+
+.list li:hover {
+ border-bottom: #fff dotted 1px;
+}
+
+.list li a:hover {
+ color: var(--secondary-color);
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
  .products-list {
@@ -334,7 +437,7 @@ h5 {
  }
 
  .products-list img {
-  width: 40vw;
+  width: 30vw;
  }
 }
 

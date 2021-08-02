@@ -21,7 +21,7 @@ const Navbar = () => {
    <nav className="navbar">
     <Logo />
     {
-     size >= 576 ?
+     size >= 626 ?
       <NavList /> : <NavMobile />
     }
    </nav>

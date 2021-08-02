@@ -1,11 +1,13 @@
+import Button from "../../Atoms/Button";
 import Heading from "../../Atoms/Heading"
-import { useCartContext } from "../../Contexts/CartContext"
-import CartCard from "../../Molecules/CartCard"
+import Parragraph from "../../Atoms/Parragraph";
+import { useCartContext } from "../../Contexts/CartContext";
+import CartCard from "../../Molecules/CartCard";
 
 const CartList = () => {
  const {cart} = useCartContext();
  return (
-  <div className="cart">
+  <div className="cart py-2">
    <Heading
     type="h1"
     text={cart && cart.length > 0 ? "Your cart" : "Your cart is empty"}
@@ -18,6 +20,8 @@ const CartList = () => {
      )
     }
    </div>
+   <Parragraph text={`Total de items: ${cart && cart.length}`}/>
+   <Button type="button" className="btn btn-primary btn-center" text="Pagar ahora" />
   </div>
  )
 }
