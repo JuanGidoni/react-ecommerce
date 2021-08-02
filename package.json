@@ -1,18 +1,23 @@
 {
-  "name": "shopTemplate",
+  "name": "shoptemplate",
   "version": "0.1.0",
   "private": true,
   "description": "A ecommerce template using CRA and pure CSS.",
+  "homepage": "https://juangidoni.github.io/react-ecommerce/",
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -30,7 +35,6 @@
   "bugs": {
     "url": "https://github.com/JuanGidoni/shopTemplate/issues"
   },
-  "homepage": "https://github.com/JuanGidoni/shopTemplate#readme",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -48,5 +52,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
