@@ -1,5 +1,5 @@
 {
-  "name": "shoptemplate",
+  "name": "reactecommerce",
   "version": "0.1.0",
   "private": true,
   "description": "A ecommerce template using CRA and pure CSS.",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JuanGidoni/shopTemplate"
+    "url": "git+https://github.com/JuanGidoni/react-ecommerce"
   },
   "keywords": [
     "ecommerce",
@@ -33,7 +33,7 @@
   "author": "Juan Ignacio Gidoni",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JuanGidoni/shopTemplate/issues"
+    "url": "https://github.com/JuanGidoni/react-ecommerce/issues"
   },
   "eslintConfig": {
     "extends": [
